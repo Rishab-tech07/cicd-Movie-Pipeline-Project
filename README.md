@@ -134,6 +134,10 @@ setup above, then configure these repository Actions settings:
 
 - `AWS_ACCESS_KEY_ID`: access key for the `github-action-user` IAM user.
 - `AWS_SECRET_ACCESS_KEY`: secret access key for that user.
+- `AWS_SESSION_TOKEN`: only required when using temporary AWS credentials; use
+  the session token paired with that access key and secret. Temporary
+  credentials expire, so use a fresh IAM-user key pair for repeatable workflow
+  runs.
 
 **Variables**
 
