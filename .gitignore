@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfplan
+
+# Node
+node_modules/
+build/
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Scratch files from lab troubleshooting
+eks-describe.json
+smoke-source.json
+codebuild-trust.json
